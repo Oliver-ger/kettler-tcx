@@ -21,7 +21,7 @@ class logreader():
     #State vom kettlerstate_log.txt lesen
     def read_state_from_file(self):
         # Zugriff auf Methode iso8691_to_time aus Klasse tcx
-        time_first_run = tcx.iso8601_to_time(self,config['START_TRAINING'])
+        time_first_run = tcx.iso8601_to_time(self,config['START_TRAINING'])+3600 # Korrektur +1h
         filename = config['LOGFILE']
         f=open(filename,'r')
         for raw_state in f:
