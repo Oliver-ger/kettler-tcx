@@ -2,7 +2,7 @@
 Generate tcx files from Kettler ergometer
 
 #Hardware
-Raspberry Pi Zero W
+Raspberry Pi Zero W  and 
 1.44" LCD Display HAT for Raspberry Pi from WAVESHARE with 3 keys
 
 #Installation
